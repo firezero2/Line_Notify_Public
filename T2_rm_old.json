@@ -1,0 +1,194 @@
+[
+    {
+        "created_on": "2022-06-30T13:32:03.600106",
+        "location": "RK-002",
+        "name": "Tank2_HN_L10_1",
+        "nodes": [
+            {
+                "message_board": {},
+                "model": "rack_model",
+                "op_state": "scanin",
+                "part_num": "Tank2_HN_L10",
+                "physical_position": "",
+                "position": null,
+                "run": 1,
+                "serial_num": "Tank2_HN_L10_1",
+                "stage": null,
+                "state": "standby",
+                "state_desc": "",
+                "task_id": null,
+                "test_case_name": null,
+                "test_state": "0/0",
+                "type": "rack"
+            },
+            {
+                "message_board": {
+                    "category": "unknown_issue",
+                    "messages": [
+                    ],
+                    "node_serial_num": "CBA8HN338001L",
+                    "state": "close"
+                },
+                "model": "Tank2_headnode",
+                "op_state": "scanin",
+                "part_num": "B81.10O01.0003",
+                "physical_position": "37-36",
+                "position": "0,36",
+                "run": 1,
+                "serial_num": "CBA8HN338001L",
+                "stage": "TO_SDR",
+                "state": "failed",
+                "state_desc": "",
+                "task_id": 96505,
+                "test_case_name": "T2_FW_CHECK",
+                "test_state": "105/228",
+                "type": "compute"
+            },
+            {
+                "message_board": {
+                    "category": "",
+                    "messages": [
+                        {
+                           
+                        }
+                    ],
+                    "node_serial_num": "CBA8HN338002L",
+                    "state": "close"
+                },
+                "model": "Tank2_headnode",
+                "op_state": "scanin",
+                "part_num": "B81.10O01.0003",
+                "physical_position": "42-41",
+                "position": "0,41",
+                "run": 2,
+                "serial_num": "CBA8HN338002L",
+                "stage": "TP_END",
+                "state": "pass",
+                "state_desc": "",
+                "task_id": 101187,
+                "test_case_name": "SFCS_PASS",
+                "test_state": "227/228",
+                "type": "compute"
+            }
+        ],
+        "op_state": "scanin",
+        "part_num": "Tank2_HN_L10",
+        "project_id": 1,
+        "scanout_on": null,
+        "serial_num": "Tank2_HN_L10_1",
+        "stage": null,
+        "state": "scanin",
+        "type": "rack"
+    },
+    {
+        "created_on": "2023-07-31T13:32:03.600106",
+        "location": "RK-003",
+        "name": "Tank2_HN_L10_2",
+        "nodes": [
+            {
+                "message_board": {},
+                "model": "rack_model",
+                "op_state": "scanin",
+                "part_num": "Tank2_HN_L10_2",
+                "physical_position": "",
+                "position": null,
+                "run": 1,
+                "serial_num": "Tank2_HN_L10_2",
+                "stage": null,
+                "state": "standby",
+                "state_desc": "",
+                "task_id": null,
+                "test_case_name": null,
+                "test_state": "0/0",
+                "type": "rack"
+            },
+            {
+                "message_board": {
+                    "category": "unknown_issue",
+                    "messages": [
+                        {
+                            
+                        }
+                    ],
+                    "node_serial_num": "CBA8HN338006L",
+                    "state": "close"
+                },
+                "model": "Tank2_headnode",
+                "op_state": "scanin",
+                "part_num": "B81.10O01.0003",
+                "physical_position": "37-36",
+                "position": "0,36",
+                "run": 2,
+                "serial_num": "CBA8HN338006L",
+                "stage": "TP_END",
+                "state": "pass",
+                "state_desc": "",
+                "task_id": 96505,
+                "test_case_name": "SFCS_PASS",
+                "test_state": "228/228",
+                "type": "compute"
+            },
+            {
+                "message_board": {
+                    "category": "",
+                    "messages": [
+                        {
+                           
+                        }
+                    ],
+                    "node_serial_num": "CBA8HN338003L",
+                    "state": "close"
+                },
+                "model": "Tank2_headnode",
+                "op_state": "scanin",
+                "part_num": "B81.10O01.0003",
+                "physical_position": "42-41",
+                "position": "0,41",
+                "run": 2,
+                "serial_num": "CBA8HN338003L",
+                "stage": "TP_END",
+                "state": "failed",
+                "state_desc": "",
+                "task_id": 101187,
+                "test_case_name": "SFCS_TEST",
+                "test_state": "228/228",
+                "type": "compute"
+            },
+            {
+                "message_board": {
+                    "category": "unknown_issue",
+                    "messages": [
+                        {
+                            
+                        }
+                    ],
+                    "node_serial_num": "CBA8HN33800YL",
+                    "state": "close"
+                },
+                "model": "tank2_headnode",
+                "op_state": "scanin",
+                "part_num": "A81.11O01.0003",
+                "physical_position": "1-2",
+                "position": "0,36",
+                "run": 2,
+                "serial_num": "CBA8HN33800YL",
+                "stage": "TP_END",
+                "state": "pass",
+                "state_desc": "",
+                "task_id": 96505,
+                "test_case_name": "SFCS_PASS",
+                "test_state": "227/228",
+                "type": "compute"
+            }
+        ],
+        "op_state": "scanin",
+        "part_num": "Tank2_headnode",
+        "project_id": 1,
+        "scanout_on": null,
+        "serial_num": "Tank2_HN_L10_2",
+        "stage": null,
+        "state": "scanin",
+        "type": "rack"
+    }
+    
+]
